@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: phishguard
+    runtime: python
+    buildCommand: pip install -r requirements.txt && python train.py
+    startCommand: gunicorn app:app
+    plan: free
