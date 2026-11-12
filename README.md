@@ -64,7 +64,7 @@ HOST=0.0.0.0 python app.py
 
 Find your computer's IP address (`ipconfig` on Windows, `ifconfig` or `ip a` on Mac/Linux), then open `http://YOUR-IP:5000` on the other device. If it doesn't load, allow Python through your firewall.
 
-**Anywhere on the internet:** deploy it for free on [Render](https://render.com). Create a new Web Service from this GitHub repo. The included `render.yaml` sets the build command (installs packages and trains the model) and the start command (`gunicorn app:app`). Render then gives you a public `https://...onrender.com` link that works on any device. On the free plan the app sleeps after a period of inactivity, so the first load can take about a minute.
+**Anywhere on the internet:** deploy it for free on [Render](https://phishguahrd.onrender.com/). Create a new Web Service from this GitHub repo. The included `render.yaml` sets the build command (installs packages and trains the model) and the start command (`gunicorn app:app`). Render then gives you a public `https://...onrender.com` link that works on any device. On the free plan the app sleeps after a period of inactivity, so the first load can take about a minute.
 
 ## Using the API
 
