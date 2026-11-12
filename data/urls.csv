@@ -1,41 +1,163 @@
-url,label
-https://www.google.com,0
-https://github.com/openai,0
-https://www.wikipedia.org/wiki/Python,0
-https://www.amazon.in/dp/B08,0
-https://stackoverflow.com/questions/1,0
-https://www.linkedin.com/in/someone,0
-https://docs.python.org/3/,0
-https://www.youtube.com/watch?v=abc,0
-https://sanjivani.edu.in,0
-https://www.microsoft.com/en-in,0
-https://www.flipkart.com/mobiles,0
-https://en.wikipedia.org/wiki/Hacking,0
-https://www.nytimes.com/section/world,0
-https://mail.google.com/mail/u/0,0
-https://www.coursera.org/learn/ml,0
-https://www.irctc.co.in,0
-https://www.hdfcbank.com,0
-https://www.apple.com/in/iphone,0
-https://leetcode.com/problems/two-sum,0
-https://www.bbc.com/news,0
-http://secure-login.paypal-verify.xyz/update/account,1
-http://192.168.10.5/bank/login.php,1
-http://paypal.com.account-verify.top/signin,1
-http://bit.ly/3xFreeBonus,1
-http://hdfc-bank-update.tk/verify/password,1
-http://amazon.security-check.login.account.click/confirm,1
-http://xn--pple-43d.com/id/login,1
-http://free-gift-bonus-urgent.xyz/claim?id=1&ref=2&x=3,1
-http://user@secure-bank.work/login,1
-http://update-your-account.ml/secure/wallet/verify,1
-http://sbi-online-verify.ga/login/confirm,1
-http://172.16.0.9/paypal/signin,1
-http://netflix-billing-update.cf/account/password,1
-http://login.microsoft.verify-account.top/secure,1
-http://apple-id-locked.xyz/verify/urgent,1
-http://tinyurl.com/urgent-bank-verify,1
-http://www.g00gle-security-login.click/signin,1
-http://secure.icici-bank.confirm-account.work/update,1
-http://account-suspended-verify.tk/paypal/login,1
-http://win-free-bonus-wallet.xyz/claim/verify/account,1
+url	label
+https://www.google.com	0
+https://github.com/openai	0
+https://www.wikipedia.org/wiki/Python	0
+https://www.amazon.in/dp/B08	0
+https://stackoverflow.com/questions/1	0
+https://www.linkedin.com/in/someone	0
+https://docs.python.org/3/	0
+https://www.youtube.com/watch?v=abc	0
+https://sanjivani.edu.in	0
+https://www.microsoft.com/en-in	0
+https://www.flipkart.com/mobiles	0
+https://en.wikipedia.org/wiki/Hacking	0
+https://www.nytimes.com/section/world	0
+https://mail.google.com/mail/u/0	0
+https://www.coursera.org/learn/ml	0
+https://www.irctc.co.in	0
+https://www.hdfcbank.com	0
+https://www.apple.com/in/iphone	0
+https://leetcode.com/problems/two-sum	0
+https://www.bbc.com/news	0
+http://secure-login.paypal-verify.xyz/update/account	1
+http://192.168.10.5/bank/login.php	1
+http://paypal.com.account-verify.top/signin	1
+http://bit.ly/3xFreeBonus	1
+http://hdfc-bank-update.tk/verify/password	1
+http://amazon.security-check.login.account.click/confirm	1
+http://xn--pple-43d.com/id/login	1
+http://free-gift-bonus-urgent.xyz/claim?id=1&ref=2&x=3	1
+http://user@secure-bank.work/login	1
+http://update-your-account.ml/secure/wallet/verify	1
+http://sbi-online-verify.ga/login/confirm	1
+http://172.16.0.9/paypal/signin	1
+http://netflix-billing-update.cf/account/password	1
+http://login.microsoft.verify-account.top/secure	1
+http://apple-id-locked.xyz/verify/urgent	1
+http://tinyurl.com/urgent-bank-verify	1
+http://www.g00gle-security-login.click/signin	1
+http://secure.icici-bank.confirm-account.work/update	1
+http://account-suspended-verify.tk/paypal/login	1
+http://win-free-bonus-wallet.xyz/claim/verify/account	1
+https://uidai.gov.in/	0
+https://myaadhaar.uidai.gov.in/	0
+https://digilocker.gov.in/	0
+https://india.gov.in/	0
+https://mygov.in/	0
+https://umang.gov.in/	0
+https://incometax.gov.in/	0
+https://gst.gov.in/	0
+https://epfindia.gov.in/	0
+https://passportindia.gov.in/	0
+https://irctc.co.in/	0
+https://indiapost.gov.in/	0
+https://eci.gov.in/	0
+https://voters.eci.gov.in/	0
+https://parivahan.gov.in/	0
+https://rbi.org.in/	0
+https://npci.org.in/	0
+https://sbi.co.in/	0
+https://onlinesbi.sbi/	0
+https://hdfcbank.com/	0
+https://icicibank.com/	0
+https://axisbank.com/	0
+https://kotak.com/	0
+https://pnbindia.in/	0
+https://bankofbaroda.in/	0
+https://canarabank.com/	0
+https://unionbankofindia.co.in/	0
+https://idfcfirstbank.com/	0
+https://indusind.com/	0
+https://yesbank.in/	0
+https://federalbank.co.in/	0
+https://aubank.in/	0
+https://phonepe.com/	0
+https://paytm.com/	0
+https://bhimupi.org.in/	0
+https://mobikwik.com/	0
+https://freecharge.in/	0
+https://amazon.in/	0
+https://flipkart.com/	0
+https://myntra.com/	0
+https://ajio.com/	0
+https://nykaa.com/	0
+https://tatacliq.com/	0
+https://reliancedigital.in/	0
+https://croma.com/	0
+https://jiomart.com/	0
+https://bigbasket.com/	0
+https://swiggy.com/	0
+https://zomato.com/	0
+https://zepto.com/	0
+https://blinkit.com/	0
+https://jio.com/	0
+https://airtel.in/	0
+https://myvi.in/	0
+https://bsnl.co.in/	0
+https://mahadiscom.in/	0
+https://swayam.gov.in/	0
+https://nptel.ac.in/	0
+https://nta.ac.in/	0
+https://jeemain.nta.nic.in/	0
+https://neet.nta.nic.in/	0
+https://cbse.gov.in/	0
+https://ugc.gov.in/	0
+https://aicte-india.org/	0
+https://naukri.com/	0
+https://foundit.in/	0
+https://internshala.com/	0
+https://careers360.com/	0
+https://redbus.in/	0
+https://makemytrip.com/	0
+https://goibibo.com/	0
+https://cleartrip.com/	0
+https://yatra.com/	0
+https://ixigo.com/	0
+https://uber.com/	0
+https://olacabs.com/	0
+https://indiatoday.in/	0
+https://ndtv.com/	0
+https://thehindu.com/	0
+https://indianexpress.com/	0
+https://hindustantimes.com/	0
+https://moneycontrol.com/	0
+https://business-standard.com/	0
+https://livemint.com/	0
+https://hotstar.com/	0
+https://sonyliv.com/	0
+https://zee5.com/	0
+https://instagram.com/	0
+https://facebook.com/	0
+https://whatsapp.com/	0
+https://x.com/	0
+https://telegram.org/	0
+https://youtube.com/	0
+https://apollohospitals.com/	0
+https://practo.com/	0
+https://1mg.com/	0
+https://netmeds.com/	0
+https://pharmeasy.in/	0
+https://justdial.com/	0
+https://urbancompany.com/	0
+https://olx.in/	0
+https://quikr.com/	0
+https://google.com/	0
+https://gmail.com/	0
+https://drive.google.com/	0
+https://microsoft.com/	0
+https://office.com/	0
+https://github.com/	0
+https://canva.com/	0
+https://adobe.com/	0
+https://wikipedia.org/	0
+https://stackoverflow.com/	0
+https://coursera.org/	0
+https://udemy.com/	0
+https://openai.com/	0
+https://unipune.ac.in/	0
+https://mu.ac.in/	0
+https://annauniv.edu/	0
+https://iitb.ac.in/	0
+https://iitd.ac.in/	0
+https://iitm.ac.in/	0
+https://iisc.ac.in/	0
