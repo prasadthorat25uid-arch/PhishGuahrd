@@ -47,7 +47,7 @@ python train.py
 python app.py
 ```
 
-Open http://127.0.0.1:5000 in your browser and paste a URL.
+Open [http://127.0.0.1:5000](https://phishguahrd.onrender.com/) in your browser and paste a URL.
 
 ## Opening it on other devices
 
