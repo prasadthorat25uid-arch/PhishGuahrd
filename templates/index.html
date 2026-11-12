@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PhishGuard</title>
+<style>
+  body{font-family:system-ui,sans-serif;background:#0f172a;color:#e2e8f0;display:flex;justify-content:center;padding:40px 16px}
+  .card{max-width:560px;width:100%;background:#1e293b;padding:28px;border-radius:14px}
+  h1{margin-top:0}
+  input{width:100%;padding:12px;border-radius:8px;border:1px solid #334155;background:#0f172a;color:inherit;box-sizing:border-box}
+  button{margin-top:12px;padding:12px 20px;border:0;border-radius:8px;background:#3b82f6;color:#fff;font-weight:600;cursor:pointer}
+  #result{margin-top:20px}
+  .bad{color:#f87171}.good{color:#4ade80}
+</style>
+</head>
+<body>
+<div class="card">
+  <h1>PhishGuard</h1>
+  <p>Paste a URL to check if it looks like phishing.</p>
+  <input id="url" placeholder="http://secure-login.example.xyz/verify">
+  <button onclick="check()">Check URL</button>
+  <div id="result"></div>
+</div>
+<script>
+async function check(){
+  const url=document.getElementById('url').value;
+  const out=document.getElementById('result');
+  const r=await fetch('/api/check',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({url})});
+  const d=await r.json();
+  if(d.error){out.textContent=d.error;return;}
+  const cls=d.verdict==='Phishing'?'bad':'good';
+  out.innerHTML=`<h2 class="${cls}">${d.verdict} (${d.score}% risk)</h2>`+
+    (d.reasons.length?'<ul>'+d.reasons.map(x=>`<li>${x}</li>`).join('')+'</ul>':'<p>No red flags found.</p>');
+}
+</script>
+</body>
+</html>
